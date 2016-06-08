@@ -1,0 +1,40 @@
+<xml>
+  <scene>
+    <msaa threshold="1"/>
+  </scene>
+  <object type="eye">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="-1500" y="0" z="130"/>
+  </object>
+  <object type="spot">
+    <pos x="-1500" y="0" z="500"/>
+    <intensity intensity="1.2"/>
+  </object>
+  <object type="spot">
+    <pos x="0" y="-1500" z="500"/>
+    <intensity intensity="1.2"/>
+  </object>
+  <object type="plan">
+    <pos x="0" y="0" z="-150"/>
+    <color color="CCCCFF"/>
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="90"/>
+    <pos x="0" y="-500" z="30"/>
+    <color color="CCCCCC"/>
+    <specular specular="1.2"/>
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="90"/>
+    <pos x="0" y="500" z="30"/>
+    <color color="FFCCCC"/>
+    <specular specular="1.2"/>
+  </object>
+  <object type="tore">
+    <rotate x="50" y="0" z="90"/>
+    <pos x="0" y="" z="80"/>
+    <color color="1212CC"/>
+    <specular specular="1.2"/>
+    <diffuse diffuse="1.2"/>
+  </object>
+</xml>

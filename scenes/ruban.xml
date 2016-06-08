@@ -1,0 +1,11 @@
+<xml>
+  <object type="eye">
+    <pos x="-1500" y="" z="170"/>
+  </object>
+  <object type="spot">
+    <pos x="-500" y="" z="500"/>
+  </object>
+  <object type="ruban">
+    <pos x="" y="" z=""/>
+  </object>
+</xml>

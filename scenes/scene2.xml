@@ -1,0 +1,42 @@
+<xml>
+  <scene>
+    <msaa threshold="4"/>
+    <ambient intensity="0.4"/>
+    <filter background="1" objects="1" type="1"/>
+  </scene>
+  <object type="eye">
+    <pos x="-1500" y="0" z="50"/>
+  </object>
+  <object type="spot">
+    <pos x="-500" y="-200" z="200"/>
+  </object>
+  <object type="spot">
+    <pos x="-500" y="200" z="200"/>
+  </object>
+  <object type="plan">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="0" y="0" z="-50"/>
+    <color color="0xFFFFFF"/>
+    <bumpmap x="" y="" z=""/>
+  </object>
+  <object type="cylinder">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="0" y="-500" z="-300"/>
+    <color color="0xCC00CC"/>
+    <size size="70"/>
+    <shiny shiny="0.5"/>
+  </object>
+  <object type="cone">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="0" y="500" z="100"/>
+    <color color="0xCC00CC"/>
+    <size size="30"/>
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="0xCCFFCC"/>
+    <size size="200"/>
+    <perlin />
+  </object>
+</xml>

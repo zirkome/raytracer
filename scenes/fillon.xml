@@ -1,0 +1,58 @@
+<xml>
+  <scene>
+    <msaa threshold="4"/>
+    <ambient intensity="0.25"/>
+  </scene>
+  <object type="eye">
+    <pos x="-1500" y="" z="0"/>
+    <rotate x="" y="" z=""/>
+  </object>
+
+  <object type="spot">
+    <pos x="-800" y="0" z="200"/>
+    <intensity intensity="1.0"/>
+    <color color="FFFFFF"/>
+  </object>
+  <object type="spot">
+    <pos x="-300" y="150" z="300"/>
+    <intensity intensity="1.0"/>
+    <color color="FFFFFF"/>
+  </object>
+  <object type="spot">
+    <pos x="0" y="0" z="800"/>
+    <intensity intensity="1.0"/>
+    <color color="FFFFFF"/>
+  </object>
+
+  <object type="tore">
+    <specular specular="1.3"/>
+    <size size="50"/>
+    <size2 size2="10"/>
+    <rotate x="10" y="0" z="50"/>
+    <pos x="-100" y="0" z="270"/>
+    <bumpmap x="3" y="" z=""/>
+  </object>
+
+  <object type="cone">
+    <rotate x="10" y="0" z="0"/>
+    <size size="80"/>
+    <color color="00FF00"/>
+    <pos x="-155" y="130" z="200"/>
+    <limit max_z="150" min_z="0"/>
+  </object>
+
+  <object type="cone">
+    <rotate x="-15" y="0" z="0"/>
+    <size size="80"/>
+    <color color="00FF00"/>
+    <pos x="-150" y="100" z="150"/>
+    <limit max_z="200" min_z="0"/>
+  </object>
+
+  <object type="sphere">
+    <rotate x="0" y="0" z="0"/>
+    <size size="300"/>
+    <color color="FF0000"/>
+    <pos x="0" y="0" z="0"/>
+  </object>
+</xml>

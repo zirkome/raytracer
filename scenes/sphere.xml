@@ -1,0 +1,51 @@
+<object type="eye">
+  <pos x="-2000" y="0" z="0"/>
+</object>
+<ambient intensity="0.15"/>
+<object type="spot">
+  <pos x="-500" y="400" z="0"/>
+  <color color="00FF00"/>
+  <intensity intensity="0.5"/>
+</object>
+<object type="spot">
+  <pos x="-500" y="-400" z="0"/>
+  <color color="0000FF"/>
+  <intensity intensity="0.5"/>
+</object>
+<object type="sphere">
+  <rotate x="0" y="0" z="0"/>
+  <pos x="650" y="-650" z="0"/>
+  <color color="CCCCCC"/>
+  <size size="150"/>
+  <diffuse diffuse="1.0"/>
+  <shiny shiny="1.0"/>
+</object>
+<object type="sphere">
+  <rotate x="0" y="0" z="0"/>
+  <pos x="-650" y="650" z="0"/>
+  <color color="CCCCCC"/>
+  <size size="150"/>
+  <diffuse diffuse="0.8"/>
+</object>
+<object type="sphere">
+  <rotate x="0" y="0" z="0"/>
+  <pos x="0" y="0" z="-650"/>
+  <color color="FF00FF"/>
+  <size size="150"/>
+  <diffuse diffuse="0.8"/>
+</object>
+<object type="sphere">
+  <rotate x="0" y="0" z="0"/>
+  <pos x="0" y="0" z="650"/>
+  <color color="00FF00"/>
+  <size size="150"/>
+  <diffuse diffuse="0.8"/>
+</object>
+<object type="sphere">
+  <rotate x="0" y="0" z="0"/>
+  <pos x="130" y="0" z="0"/>
+  <color color="CCCCCC"/>
+  <shiny shiny="1.0"/>
+  <size size="100"/>
+  <diffuse diffuse="0.3"/>
+</object>

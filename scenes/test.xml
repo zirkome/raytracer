@@ -1,0 +1,50 @@
+<xml>
+  <scene>
+    <msaa threshold="4"/>
+  </scene>
+  <object type="eye">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="-1500" y="0" z="0"/>
+  </object>
+  <object type="spot">
+    <pos x="-1500" y="-650" z="800"/>
+    <intensity intensity="1.2"/>
+  </object>
+  <object type="spot">
+    <pos x="-1500" y="1650" z="800"/>
+    <intensity intensity="1.2"/>
+  </object>
+  <object type="plan">
+    <specular specular="1.3"/>
+    <pos x="" y="" z="-350"/>
+    <color color="0xCCFFCC"/>
+    <checkerboard size="250"/>
+    <perlin />
+  </object>
+  <object type="cube">
+    <specular specular="1.3"/>
+    <size size="50"/>
+    <size2 size2="11"/>
+    <pos x="" y="650" z=""/>
+    <rotate x="50" y="" z="40"/>
+    <color color="0xCC00CC"/>
+    <bumpmap x="3"/>
+  </object>
+  <object type="tore">
+    <specular specular="1.3"/>
+    <size size="250"/>
+    <size2 size2="30"/>
+    <rotate x="70" y="" z="50"/>
+    <pos x="" y="0" z="0"/>
+    <bumpmap x="3" y="" z=""/>
+  </object>
+  <object type="tore">
+    <specular specular="1.3"/>
+    <size size="250"/>
+    <size2 size2="500"/>
+    <color color="0x00CCFF"/>
+    <pos x="-80" y="-200" z=""/>
+    <rotate x="30" y="" z="50"/>
+    <bumpmap x="" y="3" z=""/>
+  </object>
+</xml>

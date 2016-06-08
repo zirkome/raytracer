@@ -1,0 +1,42 @@
+<xml>
+  <scene>
+    <msaa threshold="3"/>
+    <ambient intensity="0.4"/>
+  </scene>
+  <object type="eye">
+    <pos x="-2000" y="0" z="0"/>
+  </object>
+  <scene>
+    <filter background="0" objects="0" type="0"/>
+  </scene>
+  <object type="spot">
+    <pos x="-500" y="400" z="0"/>
+    <color color="00FF00"/>
+    <intensity intensity="0.5"/>
+  </object>
+  <object type="spot">
+    <pos x="-500" y="-400" z="0"/>
+    <color color="0000FF"/>
+    <intensity intensity="0.5"/>
+  </object>
+  <object type="hyperboloide">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="650" y="-650" z="0"/>
+    <color color="CCCCCC"/>
+    <size size="150"/>
+    <size2 size2="45000"/>
+    <limit min_z="0" max_z="450"/>
+    <diffuse diffuse="1.0"/>
+    <shiny shiny="1.0"/>
+    <bumpmap x="" y="" z="4.0"/>
+    <perlin coef="0.9" pers="0.3" type="2"/>
+  </object>
+  <object type="paraboloide">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="0" y="650" z="0"/>
+    <color color="CCCCCC"/>
+    <size size="250"/>
+    <diffuse diffuse="0.8"/>
+    <bumpmap x="3.0" y="0" z="0"/>
+  </object>
+</xml>

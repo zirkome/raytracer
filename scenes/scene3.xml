@@ -1,0 +1,66 @@
+<xml>
+    <msaa threshold="4"/>
+    <ambient intensity="0.25"/>
+  <background background="../scenes/earth.bmp"/>
+  <object type="eye">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="-2000" y="0" z="170"/>
+  </object>
+  <object type="spot">
+    <pos x="-2500" y="500" z="300"/>
+    <color color="0xF1DB17"/>
+    <intensity intensity="0.7"/>
+  </object>
+  <object type="spot">
+    <pos x="-2500" y="500" z="-300"/>
+    <color color="0xF1DB17"/>
+    <intensity intensity="0.7"/>
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="0" y="850" z="0"/>
+    <color color="0xF1DB17"/>
+    <size size="250"/>
+    <shiny shiny="0.8"/>
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="0s"/>
+    <pos x="0" y="400" z="0"/>
+    <color color="0xCCFFCC"/>
+    <size size="80"/>
+    <shiny shiny="0.0"/>
+    <texture texture="scenes/mercury.bmp"/>
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="0s"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="0xCCFFCC"/>
+    <size size="150"/>
+    <shiny shiny="0.0"/>
+    <texture texture="scenes/earth.bmp"/>
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="0s"/>
+    <pos x="0" y="-450" z="0"/>
+    <color color="0xCCFFCC"/>
+    <size size="200"/>
+    <shiny shiny="0.0"/>
+    <texture texture="scenes/jupiter.bmp"/>
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="0s"/>
+    <pos x="0" y="-850" z="0"/>
+    <color color="0xCCFFCC"/>
+    <size size="100"/>
+    <shiny shiny="0.0"/>
+    <texture texture="scenes/venus.bmp"/>
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="0s"/>
+    <pos x="0" y="-1100" z="0"/>
+    <color color="0xCCFFCC"/>
+    <size size="70"/>
+    <shiny shiny="0.0"/>
+    <texture texture="scenes/pluto.bmp"/>
+  </object>
+</xml>

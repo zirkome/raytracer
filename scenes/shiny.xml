@@ -1,0 +1,144 @@
+<xml>
+  <scene>
+    <ambient intensity="0.0255"/>
+    <msaa threshold="1" />
+    <filter objects="0" background="0" type="0"/>
+  </scene>
+
+  <object type="eye">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="-1300" y="0" z="0"/>
+  </object>
+
+  <object type="spot">
+    <pos x="-550" y="-350" z="-300"/>
+    <color color="00FF00"/>
+    <intensity intensity="0.7"/>
+  </object>
+
+  <object type="spot">
+    <pos x="-550" y="350" z="-300"/>
+    <color color="FF0000"/>
+    <intensity intensity="0.7"/>
+  </object>
+
+  <object type="spot">
+    <pos x="-550" y="0" z="300"/>
+    <color color="0000FF"/>
+    <intensity intensity="0.7"/>
+  </object>
+
+  <object type="sphere">
+    <rotate x="0" y="0" z="0"/>
+    <pos x="300" y="0" z="0"/>
+    <color color="CCCCCC"/>
+    <size size="200"/>
+    <shiny shiny="1.0"/>
+    <specular specular="1.0"/>
+    <perlin />
+    <bumpmap x="0" y="0" z="0"/>
+  </object>
+
+  <object type="sphere">
+    <specular specular="0.7"/>
+    <rotate x="0" y="0" z="0"/>
+    <pos x="300" y="300" z="300"/>
+    <color color="CCCCCC"/>
+    <size size="120"/>
+    <shiny shiny="1.0"/>
+    <diffuse diffuse="0.75"/>
+    <bumpmap x="5.0" y="0.0" z="0.0"/>
+  </object>
+  <object type="sphere">
+    <specular specular="0.7"/>
+    <rotate x="0" y="0" z="0"/>
+    <pos x="300" y="-300" z="-300"/>
+    <color color="CCCCCC"/>
+    <size size="120"/>
+    <shiny shiny="1.0"/>
+    <diffuse diffuse="0.75"/>
+    <bumpmap x="5.0" y="0.0" z="0.0"/>
+  </object>
+  <object type="sphere">
+    <specular specular="0.7"/>
+    <rotate x="0" y="0" z="0"/>
+    <pos x="300" y="300" z="-300"/>
+    <color color="CCCCCC"/>
+    <size size="120"/>
+    <shiny shiny="1.0"/>
+    <diffuse diffuse="0.75"/>
+    <bumpmap x="5.0" y="0.0" z="0.0"/>
+  </object>
+  <object type="sphere">
+    <specular specular="0.7"/>
+    <rotate x="0" y="0" z="0"/>
+    <pos x="300" y="-300" z="300"/>
+    <color color="CCCCCC"/>
+    <size size="120"/>
+    <shiny shiny="1.0"/>
+    <diffuse diffuse="0.75"/>
+    <bumpmap x="5.0" y="0.0" z="0.0"/>
+  </object>
+  <object type="sphere">
+    <specular specular="0.7"/>
+    <rotate x="0" y="0" z="0" />
+    <pos x="300" y="-550" z="0" />
+    <color color="CCCCCC" />
+    <size size="180"/>
+    <shiny shiny="1.0"/>
+    <diffuse diffuse="0.75"/>
+    <bumpmap x="5.0" y="0.0" z="0.0"/>
+  </object>
+  <object type="sphere">
+    <specular specular="0.7"/>
+    <rotate x="0" y="0" z="0" />
+    <pos x="300" y="550" z="0" />
+    <color color="CCCCCC" />
+    <size size="180"/>
+    <shiny shiny="1.0"/>
+    <diffuse diffuse="0.75"/>
+    <bumpmap x="5.0" y="0.0" z="0.0"/>
+  </object>
+
+  <object type="sphere">
+    <specular specular="0.7"/>
+    <rotate x="0" y="0" z="0" />
+    <pos x="-100" y="0" z="600" />
+    <color color="CCCCCC" />
+    <size size="75"/>
+    <shiny shiny="1.0"/>
+    <diffuse diffuse="0.75"/>
+    <bumpmap x="0.0" y="0.0" z="5.0"/>
+  </object>
+  <object type="sphere">
+    <specular specular="0.7"/>
+    <rotate x="0" y="0" z="0" />
+    <pos x="100" y="0" z="400" />
+    <color color="CCCCCC" />
+    <size size="75"/>
+    <shiny shiny="1.0"/>
+    <diffuse diffuse="0.75"/>
+    <bumpmap x="0.0" y="0.0" z="5.0"/>
+  </object>
+
+  <object type="sphere">
+    <specular specular="0.7"/>
+    <rotate x="0" y="0" z="0" />
+    <pos x="-100" y="0" z="-600" />
+    <color color="CCCCCC" />
+    <size size="75"/>
+    <shiny shiny="1.0"/>
+    <diffuse diffuse="0.75"/>
+    <bumpmap x="0.0" y="0.0" z="5.0"/>
+  </object>
+  <object type="sphere">
+    <specular specular="0.7"/>
+    <rotate x="0" y="0" z="0" />
+    <pos x="100" y="0" z="-400" />
+    <color color="CCCCCC" />
+    <size size="75"/>
+    <shiny shiny="1.0"/>
+    <diffuse diffuse="0.75"/>
+    <bumpmap x="0.0" y="0.0" z="5.0"/>
+  </object>
+</xml>

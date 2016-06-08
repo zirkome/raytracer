@@ -1,0 +1,189 @@
+<xml>
+  <scene>
+    <ambient intensity="0.255"/>
+    <msaa threshold="2" />
+    <filter objects="0" background="1" type="1"/>
+    <gamma />
+  </scene>
+
+  <object type="eye">
+    <rotate x="0" y="0" z="-45"/>
+    <pos x="-1500" y="1200" z="0"/>
+  </object>
+
+  <object type="spot">
+    <pos x="-850" y="-500" z="600"/>
+    <color color="0000FF"/>
+    <intensity intensity="1.0"/>
+  </object>
+
+  <object type="spot">
+    <pos x="-850" y="-450" z="-600"/>
+    <color color="00FF00"/>
+    <intensity intensity="1.0"/>
+  </object>
+  <object type="spot">
+    <pos x="-850" y="450" z="-600"/>
+    <color color="FF0000"/>
+    <intensity intensity="1.0"/>
+  </object>
+
+  <object type="spot">
+    <pos x="-850" y="-700" z="70"/>
+    <color color="FFFF00"/>
+    <intensity intensity="1.0"/>
+  </object>
+  <object type="spot">
+    <pos x="-850" y="700" z="70"/>
+    <color color="00FFFF"/>
+    <intensity intensity="1.0"/>
+  </object>
+
+  <object type="spot">
+    <pos x="50" y="0" z="0"/>
+    <color color="00FFFF"/>
+    <intensity intensity="1.0"/>
+  </object>
+
+## circle tore
+  <object type="tore">
+    <specular specular="1.0"/>
+    <size size="300"/>
+    <size2 size2="35"/>
+    <color color="222222"/>
+    <pos x="0" y="0" z="0"/>
+    <rotate x="0" y="" z="90"/>
+    <bumpmap x="" y="5" z=""/>
+    <perlin color1="333333" color2="FF3334" color3="D38A00" pers="0.15" coef="1.0" type="2"/>
+  </object>
+  <object type="tore">
+    <specular specular="1.0"/>
+    <size size="600"/>
+    <size2 size2="60"/>
+    <color color="222222"/>
+    <pos x="0" y="0" z="0"/>
+    <rotate x="0" y="" z="90"/>
+    <bumpmap x="" y="5" z=""/>
+    <perlin color1="333333" color2="FF3334" color3="D38A00" pers="0.45" coef="0.50" type="2"/>
+  </object>
+  <object type="tore">
+    <specular specular="1.0"/>
+    <size size="900"/>
+    <size2 size2="60"/>
+    <color color="222222"/>
+    <pos x="0" y="0" z="0"/>
+    <rotate x="0" y="" z="90"/>
+    <bumpmap x="" y="5" z=""/>
+    <perlin color1="333333" color2="FF3334" color3="D38A00" pers="0.60" coef="0.60" type="2"/>
+  </object>
+
+## middle sphere
+  <object type="sphere">
+    <specular specular="1.5"/>
+    <rotate x="22" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <size size="150"/>
+    <bumpmap x="0" y="0" z="5.0"/>
+    <perlin color1="333333" color2="FFFFFF" color3="000080" pers="0.1" coef="1.0"/>
+  </object>
+
+  <object type="cylinder">
+    <specular specular="1.5"/>
+    <rotate x="0" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="222222"/>
+    <size size="35"/>
+    <shiny shiny="1.0"/>
+    <bumpmap x="0" y="0" z="0"/>
+    <perlin color1="333333" color2="303030" color3="E8E8E8" pers="0.255" coef="1.0" type="2"/>
+  </object>
+
+  <object type="cylinder">
+    <specular specular="1.5"/>
+    <rotate x="22" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="222222"/>
+    <size size="35"/>
+    <shiny shiny="1.0"/>
+    <bumpmap x="0" y="0" z="0"/>
+    <perlin color1="333333" color2="303030" color3="E8E8E8" pers="0.255" coef="1.0" type="2"/>
+  </object>
+
+  <object type="cylinder">
+    <specular specular="1.5"/>
+    <rotate x="45" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="222222"/>
+    <size size="35"/>
+    <shiny shiny="1.0"/>
+    <bumpmap x="0" y="0" z="0"/>
+    <perlin color1="333333" color2="303030" color3="E8E8E8" pers="0.255" coef="1.0" type="2"/>
+  </object>
+
+  <object type="cylinder">
+    <specular specular="1.5"/>
+    <rotate x="67" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="222222"/>
+    <size size="35"/>
+    <shiny shiny="1.0"/>
+    <bumpmap x="0" y="0" z="0"/>
+    <perlin color1="333333" color2="303030" color3="E8E8E8" pers="0.255" coef="1.0" type="2"/>
+  </object>
+
+  <object type="cylinder">
+    <specular specular="1.5"/>
+    <rotate x="90" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="222222"/>
+    <size size="35"/>
+    <shiny shiny="1.0"/>
+    <bumpmap x="0" y="0" z="0"/>
+    <perlin color1="333333" color2="303030" color3="E8E8E8" pers="0.255" coef="1.0" type="2"/>
+  </object>
+
+  <object type="cylinder">
+    <specular specular="1.5"/>
+    <rotate x="112" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="222222"/>
+    <size size="35"/>
+    <shiny shiny="1.0"/>
+    <bumpmap x="0" y="0" z="0"/>
+    <perlin color1="333333" color2="303030" color3="E8E8E8" pers="0.255" coef="1.0" type="2"/>
+  </object>
+
+  <object type="cylinder">
+    <specular specular="1.5"/>
+    <rotate x="135" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="222222"/>
+    <size size="35"/>
+    <shiny shiny="1.0"/>
+    <bumpmap x="0" y="0" z="0"/>
+    <perlin color1="333333" color2="303030" color3="E8E8E8" pers="0.255" coef="1.0" type="2"/>
+  </object>
+
+  <object type="cylinder">
+    <specular specular="1.5"/>
+    <rotate x="157" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="222222"/>
+    <size size="35"/>
+    <shiny shiny="1.0"/>
+    <bumpmap x="0" y="0" z="0"/>
+    <perlin color1="333333" color2="303030" color3="E8E8E8" pers="0.255" coef="1.0" type="2"/>
+  </object>
+
+  <object type="cylinder">
+    <specular specular="1.5"/>
+    <rotate x="180" y="0" z="0"/>
+    <pos x="0" y="0" z="0"/>
+    <color color="222222"/>
+    <size size="35"/>
+    <shiny shiny="1.0"/>
+    <bumpmap x="0" y="0" z="0"/>
+    <perlin color1="333333" color2="303030" color3="E8E8E8" pers="0.255" coef="1.0" type="2"/>
+  </object>
+
+</xml>

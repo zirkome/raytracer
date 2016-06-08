@@ -1,0 +1,82 @@
+<xml>
+  <scene>
+    <msaa threshold="2"/>
+    <ambient intensity="0.2"/>
+  </scene>
+  <object type="spot">
+    <pos x="-1500" y="0" z="0"/>
+  </object>
+  <object type="spot">
+    <pos x="-1500" y="0" z="350"/>
+  </object>
+  <object type="plan">
+    <pos z="-200"/>
+    <color color="F8CF00"/>
+    <checkerboard size="150"/>
+    <diffuse diffuse="2.5"/>
+  </object>
+  <object type="plan">
+    <pos z="400"/>
+    <color color="8E3557"/>
+    <checkerboard size="150"/>
+    <diffuse diffuse="2.5"/>
+  </object>
+  <object type="hyperboloide">
+    <size size="150"/>
+    <size2 size2="4000"/>
+    <color color="01B0F0"/>
+    <pos y="-900"/>
+    <specular specular="0.8"/>
+    <bumpmap z="4"/>
+    <perlin type="1" coef="0.2" pers="0.3"/>
+  </object>
+  <object type="tore">
+    <rotate x="70" z="20"/>
+    <pos y="-900"/>
+    <diffuse diffuse="1.5"/>
+    <shiny shiny="0"/>
+    <specular specular="1.0"/>
+    <color color="FBB800"/>
+  </object>
+  <object type="cube">
+    <rotate z="-40"/>
+    <size2 size2="10"/>
+    <pos z="40" y="800" x="500"/>
+    <size size="100"/>
+    <diffuse diffuse="1.2"/>
+    <specular specular="0.7"/>
+    <perlin color1="00443B" pers="0.3" coef="0.7" type="1" color3="00E4C6" color2="00927E"/>
+  </object>
+  <object type="sphere">
+    <pos z="0"/>
+    <texture texture="scenes/earth.bmp"/>
+    <diffuse diffuse="1.5"/>
+    <specular specular="2"/>
+  </object>
+  <object type="tore">
+    <size size="200"/>
+    <size2 size2="10"/>
+    <pos x="" y="0" z=""/>
+    <rotate x="60" z="60" y="50"/>
+    <specular specular="1.9"/>
+    <perlin />
+  </object>
+  <object type="tore">
+    <size size="200"/>
+    <size2 size2="10"/>
+    <pos x="" y="0" z="" />
+    <rotate x="-60" z="60"/>
+    <perlin />
+    <specular specular="1.9"/>
+  </object>
+  <object type="tore">
+    <pos y="900" z="-50"/>
+    <specular specular="1.5"/>
+    <perlin pers="0.2" coef="0.8" type="2" color1="F7F2B2"/>
+  </object>
+  <object type="tore">
+    <pos y="900" z="250"/>
+    <perlin pers="0.2" coef="0.8" type="2" color1="F7F2B2"/>
+    <specular specular="1.5"/>
+  </object>
+</xml>

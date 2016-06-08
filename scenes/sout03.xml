@@ -1,0 +1,26 @@
+<xml>
+  <scene>
+    <msaa threshold="4" />
+    <ambient intensity="0.25" />
+  </scene>
+  <object type="eye">
+    <pos x="-1300" y="0" z="0" />
+    <rotate x="0" y="0" z="0" />
+  </object>
+  <object type="spot">
+    <pos x="-1300" y="-150" z="0" />
+    <color color="FFFFFF" />
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="0" />
+    <pos x="0" y="-150" z="-250" />
+    <color color="FFE303" />
+    <size size="150" />
+  </object>
+  <object type="cylinder">
+    <rotate x="0" y="90" z="0" />
+    <pos x="0" y="-150" z="-250" />
+    <color color="FF00FF" />
+    <size size="100" />
+  </object>
+</xml>

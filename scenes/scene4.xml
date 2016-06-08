@@ -1,0 +1,26 @@
+<xml>
+  <scene>
+    <msaa threshold="1"/>
+    <ambient intensity="0.025"/>
+  </scene>
+  <object type="eye">
+    <rotate x="0" y="20" z="0"/>
+    <pos x="-1500" y="0" z="500"/>
+  </object>
+  <object type="spot">
+    <pos x="-250" y="0" z="300"/>
+    <color color="FFFFFF"/>
+    <intensity intensity="0.9" />
+  </object>
+  <object type="plan">
+    <pos x="" y="" z="-170"/>
+    <checkerboard size="250" color="CC00CC"/>
+  </object>
+  <object type="cylinder">
+    <rotate x="0" y="90" z="90"/>
+    <pos x="500" y="0" z="-175"/>
+    <size size="120"/>
+    <limit />
+    <perlin color1="333333" color2="FF3334" color3="D38A00"/>
+  </object>
+</xml>

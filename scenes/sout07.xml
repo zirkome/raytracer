@@ -1,0 +1,78 @@
+<xml>
+  <scene>
+    <msaa threshold="0"/>
+    <ambient intensity="0.25"/>
+  </scene>
+
+  <object type="eye">
+    <pos x="-1500" y="0" z="250" />
+    <rotate x="0" y="0" z="0" />
+  </object>
+
+  <object type="spot">
+    <pos x="-500" y="-900" z="50" />
+    <color color="FFFFFF" />
+  </object>
+  <object type="spot">
+    <pos x="-500" y="900" z="50" />
+    <color color="FFFFFF" />
+  </object>
+
+  <object type="plan">
+    <rotate x="0" y="90" z="0" />
+    <pos x="1500" y="0" z="0" />
+    <color color="CCFFCC" />
+    <size size="150" />
+  </object>
+  <object type="plan">
+    <rotate x="0" y="0" z="0" />
+    <pos x="0" y="0" z="-200" />
+    <color color="CCCCCC" />
+    <size size="150" />
+  </object>
+
+  <object type="sphere">
+    <rotate x="0" y="0" z="0" />
+    <pos x="200" y="0" z="-150" />
+    <color color="FF1122" />
+    <size size="100" />
+  </object>
+
+  <object type="sphere">
+    <rotate x="0" y="0" z="0" />
+    <pos x="0" y="-550" z="-50" />
+    <color color="FF1122" />
+    <size size="150" />
+  </object>
+  <object type="sphere">
+    <rotate x="0" y="0" z="0" />
+    <pos x="0" y="550" z="450" />
+    <color color="FF1122" />
+    <size size="150" />
+  </object>
+
+  <object type="cylinder">
+    <rotate x="0" y="0" z="0" />
+    <pos x="500" y="-500" z="0" />
+    <color color="FF1122" />
+    <size size="70" />
+  </object>
+  <object type="cylinder">
+    <rotate x="0" y="0" z="0" />
+    <pos x="500" y="500" z="0" />
+    <color color="FF1122" />
+    <size size="70" />
+  </object>
+  <object type="cylinder">
+    <rotate x="0" y="0" z="0" />
+    <pos x="-200" y="-600" z="0" />
+    <color color="FF1122" />
+    <size size="70" />
+  </object>
+  <object type="cylinder">
+    <rotate x="0" y="0" z="0" />
+    <pos x="-200" y="600" z="0" />
+    <color color="FF1122" />
+    <size size="70" />
+  </object>
+</xml>

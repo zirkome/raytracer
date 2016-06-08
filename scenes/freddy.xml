@@ -1,0 +1,50 @@
+<xml>
+  <scene>
+    <msaa threshold="1"/>
+    <ambient intensity="0.2"/>
+  </scene>
+  <object type="eye">
+    <pos x="-1500" y="" z="250"/>
+    <rotate x="" y="" z=""/>
+  </object>
+  <object type="spot">
+    <pos x="-400" y="0" z="0"/>
+    <intensity intensity="1.2"/>
+    <color color="CC0000"/>
+  </object>
+  <object type="tore">
+    <perlin color1="0x00CC00"/>
+    <rotate x="0" y="0" z="-90"/>
+    <size size="300"/>
+    <size2 size2="20"/>
+    <pos x="200" y="-200" z="0"/>
+  </object>
+  <object type="tore">
+    <perlin color1="0xEDFF0C"/>
+    <rotate x="0" y="0" z="-90"/>
+    <size size="300"/>
+    <size2 size2="20"/>
+    <pos x="200" y="500" z="0"/>
+  </object>
+  <object type="tore">
+    <perlin color1="0x357AB7"/>
+    <rotate x="0" y="0" z="-90"/>
+    <size size="300"/>
+    <size2 size2="20"/>
+    <pos x="200" y="800" z="300"/>
+  </object>
+  <object type="tore">
+    <perlin color1="0x000000"/>
+    <rotate x="0" y="0" z="-90"/>
+    <size size="300"/>
+    <size2 size2="20"/>
+    <pos x="200" y="150" z="300"/>
+  </object>
+  <object type="tore">
+    <perlin color1="0xD90115"/>
+    <rotate x="0" y="0" z="-90"/>
+    <size size="300"/>
+    <size2 size2="20"/>
+    <pos x="200" y="-500" z="300"/>
+  </object>
+</xml>

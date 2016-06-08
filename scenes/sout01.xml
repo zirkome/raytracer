@@ -1,0 +1,33 @@
+<xml>
+
+  <scene>
+    <ambient intensity="0.1055"/>
+    <msaa threshold="4"/>
+  </scene>
+
+  <object type="eye">
+    <pos x="-1500" y="0" z="0" />
+    <rotate x="0" y="0" z="0" />
+  </object>
+
+  <object type="spot">
+    <pos x="-100" y="-250" z="800" />
+    <color color="FFFFFF" />
+    <intensity intensity="0.8" />
+  </object>
+
+  <object type="spot">
+    <pos x="-100" y="-1000" z="0" />
+    <color color="FFFFFF" />
+    <intensity intensity="0.8"/>
+  </object>
+
+  <object type="sphere">
+    <rotate x="0" y="0" z="0" />
+    <pos x="0" y="-250" z="0" />
+    <color color="FF0000" />
+    <size size="150" />
+    <diffuse diffuse="0.75"/>
+  </object>
+
+</xml>

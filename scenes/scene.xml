@@ -1,0 +1,69 @@
+<xml>
+<scene>
+  <msaa threshold="4" />
+  <ambient intensity="0.04"/>
+</scene>
+<object type="eye">
+  <rotate x="0" y="0" z="0"/>
+  <pos x="-1500" y="0" z="0"/>
+</object>
+<object type="spot">
+  <pos x="-500" y="0" z="800"/>
+  <color color="00FF00"/>
+  <intensity intensity="1.0"/>
+</object>
+<object type="spot">
+  <pos x="0" y="-800" z="600"/>
+  <color color="0000FF"/>
+  <intensity intensity="0.7"/>
+</object>
+<object type="spot">
+  <pos x="400" y="500" z="0"/>
+  <color color="0000FF"/>
+  <intensity intensity="0.7"/>
+</object>
+<object type="spot">
+  <pos x="0" y="500" z="800"/>
+  <color color="00FFFF"/>
+  <intensity intensity="0.7"/>
+</object>
+<object type="sphere">
+  <rotate x="0" y="0" z="0"/>
+  <pos x="0" y="400" z="0"/>
+  <color color="CCCCCC"/>
+  <size size="120"/>
+  <shiny shiny="0.4"/>
+</object>
+<object type="sphere">
+  <rotate x="0" y="0" z="0"/>
+  <pos x="0" y="0" z="300"/>
+  <color color="FFCCFF"/>
+  <size size="150"/>
+</object>
+<object type="cone">
+  <rotate x="0" y="0" z="0"/>
+  <pos x="-50" y="500" z="0"/>
+  <color color="00CC00"/>
+  <size size="30"/>
+  <limit min_z="30"/>  
+<shiny shiny="0.9"/>
+</object>
+<object type="cylinder">
+  <rotate x="90" y="0" z="0"/>
+  <pos x="0" y="0" z="250"/>
+  <color color="00CCFF"/>
+  <size size="50"/>
+</object>
+<object type="spot">
+  <pos x="-300" y="0" z="-500"/>
+  <color color="FFFFFF"/>
+  <intensity intensity="0.7"/>
+</object>
+<object type="sphere">
+  <rotate x="0" y="0" z="0"/>
+  <pos x="0" y="0" z="-200"/>
+  <color color="CCCCCC"/>
+  <size size="150"/>
+  <perlin color1="F6E497" color2="BD8D46" color3="F0F80F" pers="0.2" coef="1.99"/>
+</object>
+</xml>

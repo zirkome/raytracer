@@ -1,0 +1,76 @@
+<xml>
+  <scene>
+    <msaa threshold="1"/>
+    <ambient intensity="0.12"/>
+  </scene>
+  <object type="eye">
+    <pos x="-1500" y="" z="250"/>
+    <rotate x="" y="" z=""/>
+  </object>
+  <object type="spot">
+    <pos x="-200" y="-700" z="600"/>
+    <intensity intensity="0.9"/>
+    <color color="FFFFFF"/>
+  </object>
+  <object type="spot">
+    <pos x="-2500" y="0" z="200"/>
+    <intensity intensity="1.7"/>
+    <color color="FFFFFF"/>
+  </object>
+  <object type="spot">
+    <pos x="-500" y="700" z="-100"/>
+    <intensity intensity="1.7"/>
+    <color color="FFFFFF"/>
+  </object>
+  <object type="spot">
+    <pos x="-700" y="0" z="600"/>
+    <intensity intensity="1.0"/>
+    <color color="CCFFCC"/>
+  </object>
+  <object type="spot">
+    <pos x="-200" y="700" z="600"/>
+    <intensity intensity="1"/>
+    <color color="0CC0FD"/>
+  </object>
+  <object type="plan">
+    <pos x="" y="" z="-170"/>
+    <color color="EB6969"/>
+    <checkerboard size="150"/>
+  </object>
+  <object type="plan">
+    <pos x="" y="-700" z="-200"/>
+    <rotate x="90" y="10" z=""/>
+    <color color="15DAC0"/>
+    <checkerboard size="150"/>
+  </object>
+  <object type="plan">
+    <pos x="" y="700" z="-200"/>
+    <rotate x="90" y="-10" z=""/>
+    <color color="15DAC0"/>
+    <checkerboard size="150"/>
+  </object>
+  <object type="plan">
+    <pos x="" y="" z="-600"/>
+    <rotate x="0" y="90" z=""/>
+    <color color="15FFFF"/>
+    <checkerboard size="150"/>
+  </object>
+  <object type="cube">
+    <perlin pers="0.3" coef="0.9" color1="BD8D46"/>
+    <size size="50"/>
+    <size2 size2="8"/>
+    <rotate x="0" y="" z="-30"/>
+    <pos x="-600" y="-500" z="-40"/>
+    <bumpmap x="3" y="" z=""/>
+  </object>
+  <object type="tore">
+    <perlin color1="0xFFCC00"/>
+    <rotate x="90" y="" z="90"/>
+    <pos x="-200" y="" z="-140"/>
+  </object>
+  <object type="sphere">
+    <size size="100"/>
+    <pos x="-200" y="" z="-40"/>
+    <texture texture="scenes/jupiter.bmp"/>
+  </object>
+</xml>
